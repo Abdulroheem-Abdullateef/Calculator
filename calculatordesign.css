@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-origin: #efeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 300px;
+    height: 500px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    background: #22252D; 
+    overflow: hidden;
+
+}
+
+form input {
+    width: 100%;
+    height: 150px;
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #fff;
+    background: #000;
+    text-align: right;
+    pointer-events: none;
+
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+button {
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid #000;
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+ 
+.btn-yellow{
+ background: rgb(245, 146, 62);
+ color: #fff;
+} 
+
+.btn-grey{
+    background: rgb(224, 223, 224);
+}
+
+.btn-equal{
+background:green;
+}
+
+.btn-clear{
+    background:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+#outter-div {
+    margin: auto;
+    width: 30vw;
+    border: 2px solid red;
+    height: vh;
+    background-color: lightblue;
+
+}
+
+#input-tag {
+    margin-top: 30px;
+    border: 2px solid blue;
+    height: 10vh;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#sign {
+    margin-left: 20%;
+}
+
+
+#clear {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#clear2 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#reset {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#buttonrow-1 {
+
+  margin-left: 20%;
+}
+
+#number-9 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#number-8 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#number-7 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+#number-0 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+#buttonrow-2 { 
+    margin-left: 20%;
+}
+
+#number-6 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+#number-5 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+#number-4 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.btn{
+    margin-left: 70%;
+    margin-top: 10px;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50%;text-align: center;
+}
+#buttonrow-3 { 
+    margin-left: 20%;
+}
+
+#number-3 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+#number-2 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+#number-1 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+#buttonrow-4 { 
+    margin-left: 20%;
+}
+
+
+
+#equalto {
+    margin-top: 20px; 
+    margin-left: 10px;
+
+}
+
+
+#plus {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+#minus {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+
+#multiple {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#divided {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#dot {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+} */
