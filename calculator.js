@@ -52,11 +52,11 @@ let buttons = Array.from(document.getElementsByClassName('button'));
 buttons.map(button => {
     button.addEventListener('click', (e) => {
         switch (e.target.innerText) {
-            case 'C':
+            case 'Clear':
                 display.innerText = " ";
                 break;
 
-            case 'Clear':
+            case 'Back':
                 if (display.innerText) {
                     display.innerText = display.innerText.slice(0, -1);
                 }
